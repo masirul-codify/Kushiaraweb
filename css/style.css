@@ -1,0 +1,353 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box !important;
+}
+
+@media (min-width:768px){
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 155px;
+    }
+    }
+    /* @media (min-width:768px){
+        .navbar .navbar-brand{
+            margin-left:15% !important;
+             }
+       } */
+
+ .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.row{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Raleway", sans-serif;
+
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #5faee3;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  /*  */
+
+    .bg-image{
+        background-image: url(img/bg.jpg);
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        }
+
+/*Set bg image & Change image bg opacity  */
+
+
+.nav-secondary{
+    background: #444444;
+}
+
+.nav-icon-bg {
+    border-radius: 50%;
+    width: 20px;
+    background: rgb(0, 0, 0);
+    padding: 5px 3px !important;
+    font-size: smaller;
+}
+
+.icon-bg:hover{
+    background: #000;
+    color: aqua;
+}
+
+.card{
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(209, 62, 254);
+    box-shadow: 5px 5px 10px black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.pt{
+    padding: 5px solid black !important;
+    color: white;
+}
+
+/* card area */
+
+
+/* Overlaying div */
+.overlay{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+  
+  .bg-image {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .overlay-card {
+    margin-top: -35vh !important;
+    position: relative;
+    z-index: 3;
+  }
+/* End overlaying */
+
+
+/* motivation */
+.mtop{
+  margin-top: 150px;
+}
+
+/* profile card */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#ffffff;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .container{
+        height: 100vh;
+       }
+
+
+        /* service card */
+       .s-card{
+        border: 1px solid #6C0B1C;
+       }
+       
+       .s-user{
+        position: relative;
+       }
+       .s-profile{
+
+        position: absolute;
+        top: -92px !important;
+        left: 28%;
+        height: 115px;
+        width: 115px;
+        background: #EE5A5A;
+        border-radius: 50%;
+
+       }
+    
+       .s-profile img{
+
+        
+        height: auto;
+        width: 100%;
+        margin-top:5px;
+
+       
+       }  
+
+       .mobile{
+        height: auto !important;
+        width: 52% !important;
+        margin-top:5px !important;
+       }
+
+
+       @media (max-width:768px){
+        .s-profile{
+
+          position: absolute;
+          top: -92px !important;
+          left: 28%;
+          height: 115px;
+          width: 115px;
+          background: #EE5A5A;
+          border-radius: 50%;
+  
+         }
+      
+         .s-profile img{
+  
+          
+          height: auto;
+          width: 100%;
+          margin-top:5px;
+  
+         
+         }  
+  
+         .mobile{
+          height: auto !important;
+          width: 52% !important;
+          margin-top:5px !important;
+         }
+
+
+      }
+
+      @media (max-width:600px){
+        .s-profile{
+
+          position: absolute;
+          top: -92px !important;
+          left: 28%;
+          height: 115px;
+          width: 115px;
+          background: #EE5A5A;
+          border-radius: 50%;
+  
+         }
+      
+         .s-profile img{
+  
+          
+          height: auto;
+          width: 100%;
+          margin-top:5px;
+  
+         
+         }  
+  
+         .mobile{
+          height: auto !important;
+          width: 52% !important;
+          margin-top:5px !important;
+         }
+
+
+      }
+        /* end service card */
+
+
+
+       /* comment cards */
+       .card2{
+        margin-top: 97px !important;
+        margin-left: 30px;
+       }
+       .upper{
+
+        height: 100px;
+
+       }
+
+
+       .user{
+        position: relative;
+       }
+
+       .profile img{
+
+        
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+
+       
+       }
+
+       .user1{
+        position: relative;
+       }
+       .profile1{
+
+        position: absolute;
+        top:-120px;
+        left: -35%;
+        height: 90px;
+        width: 90px;
+
+        border-radius: 50%;
+
+       }
+       
+       .user2{
+        position: relative;
+       }
+       .profile2{
+
+        position: absolute;
+        top:-120px;
+        right: -35%;
+        height: 90px;
+        width: 90px;
+
+        border-radius: 50%;
+
+       }
+
+       .profile{
+
+        position: absolute;
+        top:-50px;
+        left: 38%;
+        height: 90px;
+        width: 90px;
+        border:3px solid #fff;
+
+        border-radius: 50%;
+
+       }
+
+       .follow{
+
+        border-radius: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 35px;
+       }
+
+       .stats span{
+
+        font-size: 29px;
+       }
+
+       /* comment sec */
+       .cmnticon-2{
+        margin-left: 385px !important;
+       }
+
+       @media (max-width:768px){
+          .cmnticon-2{
+            margin-left: 285px !important;
+          }
+        }
+    
+      @media (max-width:768px){
+        .cmnticon-2{
+          margin-left: 200px !important;
+        }
+       } 
+
