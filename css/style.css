@@ -178,12 +178,16 @@ body {
        
        }  
 
-       .mobile{
+       .s-profile .mobile{
+  
         height: auto !important;
-        width: 52% !important;
+        width: 40% !important;
         margin-top:5px !important;
        }
 
+       .mb{
+        margin-bottom: 100px ;
+       }
 
        @media (max-width:768px){
         .s-profile{
@@ -210,10 +214,19 @@ body {
   
          .mobile{
           height: auto !important;
-          width: 52% !important;
+          width: 80% !important;
           margin-top:5px !important;
          }
 
+
+         h5,
+         h6,
+         p,
+         div {
+           font-family: "Raleway", sans-serif;
+           font-size: 16px!important;
+         }
+       
 
       }
 
@@ -241,10 +254,19 @@ body {
          }  
   
          .mobile{
-          height: auto !important;
-          width: 52% !important;
+          height: 115px !important;
+          width: 80% !important;
           margin-top:5px !important;
          }
+
+         h5,
+         h6,
+         p,
+         div {
+           font-family: "Raleway", sans-serif;
+           font-size: 13px!important;
+         }
+       
 
 
       }
@@ -278,32 +300,18 @@ body {
        
        }
 
-       .user1{
-        position: relative;
-       }
        .profile1{
 
-        position: absolute;
-        top:-120px;
-        left: -35%;
         height: 90px;
         width: 90px;
-
         border-radius: 50%;
 
        }
        
-       .user2{
-        position: relative;
-       }
        .profile2{
 
-        position: absolute;
-        top:-120px;
-        right: -35%;
         height: 90px;
         width: 90px;
-
         border-radius: 50%;
 
        }
@@ -351,3 +359,14 @@ body {
         }
        } 
 
+/* carousle css */
+
+.carousel-control-prev-icon{
+  background:#6C0B1C;
+  color: #fff;
+}
+
+.carousel-control-next-icon{
+  background:#6C0B1C;
+  color: #fff;
+}
